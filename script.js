@@ -17,6 +17,6 @@ document.getElementById('formulario-contacto').addEventListener('submit', functi
 
 // Función para validar el formato del correo electrónico
 function validateEmail(email) {
-    var regex = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    const regex = /^([\w-.]+@([\w-]+\.)+[\w-]{2,4})?$/;
     return regex.test(email);
 }
