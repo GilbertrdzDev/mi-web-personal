@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi sitio web personal</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#biografia">Biografía</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#horario">Horario</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>
+            ¡Hola! Mi nombre es Gilbert Rodríguez. Soy estudiante de Programación web en Talento Tech USM. Desde pequeño, siempre he sentido una gran pasión por la tecnología y cómo esta puede influir positivamente en la sociedad. En mi tiempo libre, disfruto explorando nuevas tendencias en el mundo digital y aprendiendo constantemente.
+        </p>
+        <p>
+            Este sitio web es una ventana a mi mundo, donde comparto mis intereses, actividades y formas de contacto. Espero que disfrutes navegando por él tanto como yo disfruté creándolo.
+        </p>
+        <img class="profile" src="img/profile.jpg" alt="Foto personal">
+    </section>
+
+    <section id="hobbies" class="p-0">
+        <h2 class="px-20">Mis Hobbies</h2>
+        <p class="px-20">
+            A continuación, comparto algunas de las actividades que más me apasionan y que forman parte importante de mi vida diaria.
+        </p>
+        <ul class="px-20">
+            <li>Desarrollo de aplicaciones web y móviles</li>
+            <li>Lectura de libros sobre ciencia y tecnología</li>
+            <li>Participación en proyectos de código abierto</li>
+            <li>Viajar y conocer nuevas culturas</li>
+            <li>Fotografía y edición de imágenes</li>
+        </ul>
+        <div class="bg-hobbies bg-scroller"></div>
+    </section>
+
+    <section id="horario" class="p-0">
+        <h2 class="px-20">Horario Semanal</h2>
+        <p class="px-20">
+            Organizar mi tiempo es fundamental para equilibrar mis responsabilidades académicas y personales. Aquí comparto mi horario semanal para que conozcas un poco más sobre mis actividades diarias.
+        </p>
+        <div class="px-20">
+            <table>
+                <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Mañana</th>
+                    <th>Tarde</th>
+                    <th>Noche</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Clases universitarias</td>
+                    <td>Estudio personal</td>
+                    <td>Gimnasio</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Proyecto de investigación</td>
+                    <td>Prácticas en laboratorio</td>
+                    <td>Lectura</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Clases universitarias</td>
+                    <td>Reunión de equipo</td>
+                    <td>Película</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Desarrollo de aplicaciones</td>
+                    <td>Voluntariado</td>
+                    <td>Cena con amigos</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Clases universitarias</td>
+                    <td>Estudio personal</td>
+                    <td>Salida cultural</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>Deportes</td>
+                    <td>Tiempo en familia</td>
+                    <td>Lectura</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>Descanso</td>
+                    <td>Planificación semanal</td>
+                    <td>Paseo al aire libre</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="bg-horario bg-scroller"></div>
+    </section>
+
+    <section id="contacto" class="p-0">
+        <h2 class="px-20">Contacto</h2>
+        <p class="px-20">
+            Si deseas ponerte en contacto conmigo, por favor completa el siguiente formulario. Estoy abierto a colaboraciones, proyectos o simplemente para conversar sobre intereses comunes.
+        </p>
+        <div class="bg-contacto bg-scroller"></div>
+        <form id="formulario-contacto" action="#" method="post">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="motivo">Motivo de Contacto:</label>
+            <input type="text" id="motivo" name="motivo" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required rows="10"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy;2024 Gilbert Rodríguez. Todos los derechos reservados.</p>
+        <p>Sígueme en mis redes sociales:</p>
+        <a href="https://facebook.com/Gilbertrdzdev">Facebook</a> |
+        <a href="https://x.com/gilbertrdzdev">Twitter</a> |
+        <a href="https://instagram.com/gilbertrdz.dev">Instagram</a> |
+        <a href="https://linkedin.com/in/gilbertrdzdev">LinkedIn</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
